@@ -60,26 +60,19 @@ $(() => {
         navText: [$('.owl-navigation .owl-nav-prev4'), $('.owl-navigation .owl-nav-next4')],
 
         autoplayHoverPause: true,
-        responsive: {
-            0: {
-                items: 2
-            },
+        // responsive: {
+        //     0: {
+        //         items: 1
+        //     },
 
-            425: {
-                items: 2
-            },
-            557: {
-                items: 1,
-            },
-            768: {
-                items: 1
-            },
-            1000: {
-                items: 1
-            },
+        //     425: {
+        //         items: 2
+        //     },
+        //     988: {
+        //         items: 4
+        //     },
 
-        }
-
+        // }
 
     })
     $("#shoesSlider").owlCarousel({
@@ -92,26 +85,6 @@ $(() => {
         // navText: [$('.owl-navigation .owl-nav-prev5'), $('.owl-navigation .owl-nav-next5')],
 
         autoplayHoverPause: true,
-        responsive: {
-            0: {
-                items: 2
-            },
-
-            425: {
-                items: 2
-            },
-            557: {
-                items: 1,
-            },
-            768: {
-                items: 1
-            },
-            1000: {
-                items: 1
-            },
-
-        }
-
 
     })
 
@@ -157,25 +130,6 @@ $(() => {
         // navText: [$('.owl-navigation .owl-nav-prev4'), $('.owl-navigation .owl-nav-next4')],
 
         autoplayHoverPause: true,
-        responsive: {
-            0: {
-                items: 2
-            },
-
-            425: {
-                items: 2
-            },
-            557: {
-                items: 1,
-            },
-            768: {
-                items: 1
-            },
-            1000: {
-                items: 1
-            },
-
-        }
 
 
     })
