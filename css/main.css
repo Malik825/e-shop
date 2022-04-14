@@ -860,7 +860,7 @@ img {
     ;
     right: 0;
     height: 100vh;
-    width: 450px;
+    width: 30%;
     z-index: 99999;
     padding: 0;
     display: flex;
@@ -2071,6 +2071,9 @@ button {
 }
 
 @media (max-width:768px) {
+    .cartPage {
+        width: 80%;
+    }
     .categorySection .container {
         width: 95% !important;
     }
@@ -2130,6 +2133,13 @@ button {
 }
 
 @media (max-width:400px) {
+    .cartPage {
+        width: 100%;
+        padding: 1rem;
+    }
+    tr {
+        width: 100%;
+    }
     .accountForm .container {
         max-width: 60%;
         margin: 0 auto;
