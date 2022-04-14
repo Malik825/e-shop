@@ -53,7 +53,7 @@ $(() => {
     $("#allProductSlider").owlCarousel({
         items: 1,
         autoplay: true,
-        smartSpeed: 900,
+        smartSpeed: 1200,
         loop: true,
         nav: true,
         dots: false,
@@ -78,7 +78,7 @@ $(() => {
     $("#shoesSlider").owlCarousel({
         items: 1,
         autoplay: true,
-        smartSpeed: 900,
+        smartSpeed: 1200,
         loop: true,
         nav: false,
         dots: true,
@@ -91,7 +91,7 @@ $(() => {
     $("#testimonial-carousel").owlCarousel({
 
         autoplay: true,
-        smartSpeed: 700,
+        smartSpeed: 1200,
         loop: true,
         delay: 10,
         margin: 20,
@@ -123,7 +123,7 @@ $(() => {
     $("#shirtSlider").owlCarousel({
         items: 1,
         autoplay: true,
-        smartSpeed: 900,
+        smartSpeed: 1200,
         loop: true,
         nav: true,
         dots: true,
