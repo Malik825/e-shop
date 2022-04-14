@@ -2109,6 +2109,7 @@ button {
         transform: scale(0.7) !important;
     }
     .home-text {
+        margin-top: -1.5rem;
         order: 2;
     }
     .homeRight .grid {
