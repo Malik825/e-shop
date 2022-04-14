@@ -1738,9 +1738,9 @@ button {
 .accountForm .title {
     text-align: center;
     width: 100%;
-    font-size: 32px;
+    font-size: 1.5rem;
     font-weight: 500;
-    color: #5256AD;
+    color: var(--primary);
     /* text-transform: uppercase; */
     margin: 0 0 25px;
     font-family: 'Satisfy', sans-serif;
@@ -1766,7 +1766,7 @@ button {
 .accountForm .input-group input:is(:focus,
  :valid) {
     /* border-color: #5256AD; */
-    border-bottom: 1.5px solid #5256AD;
+    border-bottom: 1.5px solid var(--primary);
 }
 
 .accountForm .input-group input:is(:focus,
@@ -1795,13 +1795,13 @@ button {
 }
 
 ::placeholder {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .accountForm button.btn {
     outline: none;
     border: none;
-    background: #5256AD;
+    background: var(--primary);
     color: #fff;
     display: inline-block;
     border-radius: 30px;
@@ -1844,7 +1844,7 @@ button {
 }
 
 .checkBox input {
-    accent-color: #5256AD;
+    accent-color: var(--primary);
 }
 
 .remember a {
@@ -1854,7 +1854,7 @@ button {
 }
 
 .link {
-    color: #5256AD;
+    color: var(--primary);
 }
 
 @media(max-width: 991px) {
@@ -2133,6 +2133,10 @@ button {
 }
 
 @media (max-width:400px) {
+    .loginr {
+        display: flex;
+        flex-direction: column;
+    }
     .cartPage {
         width: 100%;
         padding: 1rem;
